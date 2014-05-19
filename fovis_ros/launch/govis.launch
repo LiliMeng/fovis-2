@@ -1,0 +1,7 @@
+<launch>
+  <!-- This should be the same as used with openni_launch -->
+
+  <node pkg="fovis_ros" type="fovis_mono_depth_odometer" name="kinect_odometer" >
+    <param name="approximate_sync" type="bool" value="True" />
+  </node>
+</launch>
